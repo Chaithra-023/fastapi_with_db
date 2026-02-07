@@ -1,7 +1,7 @@
-from models import User
+from model import User
 from sqlalchemy.orm import Session
 
-class userRepo:
+class UserRepo:
     def __init__(self, db: Session):
         self.db = db
 
